@@ -1,0 +1,80 @@
+*{
+    font-family: 'Hind', sans-serif;
+}
+
+body{
+    background-image: url(./images/weather-970917_1280small.jpg);
+}
+
+#nav-bar{
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 30px;
+    font-weight: bold;
+    height :75px;
+    letter-spacing: .2em;
+}
+
+.icon-play{
+    background-image : url(./images/search_ico.png.png);
+    background-size: cover;
+    display: inline-block; 
+    height: 30px;
+    width: 30px;
+}
+.currentcity, .yourlocation{
+    padding: 15px;
+    border:1px solid lightgray;
+    border-radius: 5px;
+}
+
+h3{
+    color: blue;
+    overflow-wrap: break-word;
+}
+
+.currentcity p {
+    text-align: center;
+}
+
+.spantemp{
+    padding: 15px;
+    font-size: 65px;
+}
+
+.currentcity{
+    background-color:rgba(17, 230, 194, 0.623);
+}
+.yourlocation{
+    background-color: rgba(17, 230, 194, 0.623);
+}
+.placeholder{
+    height:20px;
+}
+
+.fivedays, h4{
+    padding-top: 15px;
+}
+
+.eachday{
+    background-color:rgb(7, 138, 127);
+    border-radius: 5px;
+    font-size: smaller;
+    color: white;
+    overflow: hidden;
+}
+
+.uvindex{
+    background-color: rgb(187, 35, 35);
+    color: white;
+    padding: 3px 5px;
+}
+
+.day{
+    text-align: center;
+    font-size: 22px;
+}
+
+.clearcities{
+    background-color:black;
+    color: rgba(255, 255, 255, 0.897);
+}
